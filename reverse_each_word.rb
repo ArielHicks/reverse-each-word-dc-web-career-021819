@@ -1,5 +1,2 @@
-reverse_each_word = []"Hello, there and who are you?"]
-
-reverse_each_word.reverse do |word|
-  word.reverse
-end
+def reverse_each_word(sentence)
+  sentence.split.collect {|word| word.reverse}.join(" ")}
